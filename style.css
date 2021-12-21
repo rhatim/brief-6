@@ -18,7 +18,7 @@ nav
   width: 100%;
   
 }
-.bar-nav
+.menuprin
 {
     display: flex;
     align-items: center;
@@ -28,21 +28,21 @@ nav
     width: 85%;
     justify-content: center;
 }
-.bar-nav h1
+.menuprin h1
 {
     font-size: 20px;
 }
-.bar-nav ul
+.menuprin ul
 {
     display: flex;
     align-items: center;
     margin-left: 7%;
 }
-.bar-nav ul li
+.menuprin ul li
 {
     margin-right: 7%;
 }
-.bar-nav ul li a
+.menuprin ul li a
 {
     color: black;
     font-size: 15px;
@@ -53,18 +53,18 @@ select
     border: none;
     font-size: 15px;
 }
-.log-button
+.button
 {
-   margin-left: 46%;
+   margin-left: 37%;
 }
-.log
+.login
 {
  font-size: 15px;
  background-color: rgba(255, 255, 255, 0.048);
  color: black;
  border: none;
 }
-.sign
+.signup
 {
  font-size: 15px;
  background-color: black;
@@ -72,16 +72,16 @@ select
  border-radius: 5px;
  border: none;
 }
-.sign a 
+.signup a 
 {
     color: white  ;
 }
-.zone-2
+.part
 {
     width: 100%;
     justify-content: center;
 }
-.container
+.contenu
 {
     width: 85% ;
     height:200px ;
@@ -94,25 +94,25 @@ select
     align-items: center;
     justify-content: center;
 }
-.zone-2-txt
+.part-parag
 {
     width: 60%;
     align-items: center;
 }
-.zone-2-txt h1
+.part-parag h1
 {
     color: white;
     padding:0px 0px 0px 0px;
     width: 70%;
 }
-.zone-2-txt p
+.part-parag p
 {  
     width: 70%;
     font-size: 13px;
     color: white;
     padding: 10px 0px 5px 0px;
 }
-#promo
+#promo-c
 {
   background-color: white;
   color: gray;
@@ -121,7 +121,7 @@ select
   width: 40%;
   height: 30px;
 }
-.zone-2-txt button
+.part-parag button
 {
     border-radius: 5px;
     color: white;
@@ -130,7 +130,7 @@ select
     width: 25%;
  
 }
-.container img
+.contenu img
 {
     width:30%;
    height: 130%;
@@ -151,15 +151,15 @@ select
     width: 15%;
 
 }
-#comp-6
+#company-6
 {
     width: 10%;
 }
-.zone-3
+.part-1
 {
     width: 100%;
 }
-.container-2
+.contenu-1
 {
     width: 85% ;
     height:400px ;
@@ -172,12 +172,12 @@ select
     display: flex;
     align-items: center;
 }
-.container-2 img
+.contenu-1 img
 {
     width:30% ;
     height:100% ;
 }
-.txt
+.paragraph
 {
     width: 40%;
     height: 100%;
@@ -185,22 +185,22 @@ select
     align-items: center;
     justify-content: center;
 }
-.txt h1
+.paragraph h1
 {
   padding: 10% 0px 0px 10%;
 }
-.txt h2
+.paragraph h2
 {
   font-size: 12px;
   margin: 5% 0% 0% 10%;
 }
-.txt p
+.paragraph p
 {
     font-size: 10px;
     width: 70%;
     margin: 1% 0% 0% 10%;
 }
-.txt button
+.paragraph button
 {
   margin: 5% 0% 0% 25%;
   border-radius: 5px;
@@ -210,11 +210,11 @@ select
   height: 30px;
   width: 150px;
 }
-.zone-4
+.part-2
 {
     width: 100%;
 }
-.container-3
+.contenu-2
 {
     width: 85% ;
     height:250px ;
@@ -227,7 +227,7 @@ select
     display: flex;
     align-items: center;
 }
-.zone-4-txt h1
+.part-2-parag h1
 {
     color: white;
     width: 70%;
@@ -235,7 +235,7 @@ select
 
 }
 
-.zone-4-txt ul li a
+.part-2-parag ul li a
 {
     color: white;
 }
@@ -258,15 +258,15 @@ select
     width: 35%;
     margin:2% 0% 0% 8%;
 }
-.container-3 img
+.contenu-2 img
 {
     width:50% ;
 }
-.zone-5
+.part-3
 {
     width: 100%;
 }
-.container-4
+.contenu-3
 {
     width: 85% ;
     height:500px ;
@@ -278,7 +278,7 @@ select
     display: flex;
    
 }
-.column-1
+.column
 {
     width: 34%;
     height: 100%;
@@ -295,7 +295,7 @@ select
     float: right;
     margin-top: 5%;
 }
-.column-2
+.column-1
 {
     width: 18%;
     height: 60%;
@@ -306,7 +306,7 @@ select
     width: 100%;
     height: 100%;
 }
-.column-3
+.column-2
 {
     width: 25%;
     margin-left: 2%;
@@ -322,7 +322,7 @@ select
     height: 40%;
     margin-top: 10%;
 }
-.column-4
+.column-3
 {
     width: 25%;
     margin-left: 2%;
@@ -338,11 +338,11 @@ select
     height: 55%;
     margin-top: 10%;
 }
-.zone-6
+.part-4
 {
     width: 100%;
 }
-.last-container
+.contenu-4
 {
     width: 85% ;
     height:180px ;
@@ -354,34 +354,56 @@ select
     margin-bottom: 1%;
     display: flex;
 }
-.zone-6-txt p
+.part-4-parag p
 {
     color: white;
     padding:10% 0% 0% 20% ;
     width: 380px;
 }
-.listes
+.lists
 {
     width: 50%;
     display: flex;
     margin:3% 0% 0% 23%;
 }
-.list1
+.list
 {
   width: 20%;
   
 }
-.list1 h2
+.list h2
 {
     color: white;
     font-size: 12px;
     font-weight: bold;
     padding-left:45% ;
 }
-.list1 h2:hover
+.list h2:hover
 {
     text-decoration: underline;
     color: grey;
+}
+.list ul
+{
+    margin:0% 0% 0% 0%  ;
+}
+.list ul li a
+{
+  color: white;
+  list-style: none;
+  font-size: 12px;
+  padding-top: 2%;
+}
+.list1
+{
+    width: 20%;
+}
+.list1 h2
+{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 45%;
 }
 .list1 ul
 {
@@ -391,19 +413,21 @@ select
 {
   color: white;
   list-style: none;
-  font-size: 12px;
-  padding-top: 2%;
+  font-size: 10px;
+  padding-top: 2px;
 }
 .list2
 {
-    width: 20%;
+  width: 30%;
+   
+   
 }
 .list2 h2
 {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    padding-left: 45%;
+    padding-left: 35%;
 }
 .list2 ul
 {
@@ -413,21 +437,19 @@ select
 {
   color: white;
   list-style: none;
-  font-size: 10px;
+  font-size: 12px;
   padding-top: 2px;
 }
 .list3
 {
-  width: 30%;
-   
-   
+    width: 20%;
 }
 .list3 h2
 {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    padding-left: 35%;
+    padding-left: 45%;
 }
 .list3 ul
 {
@@ -438,35 +460,13 @@ select
   color: white;
   list-style: none;
   font-size: 12px;
-  padding-top: 2px;
-}
-.list4
-{
-    width: 20%;
-}
-.list4 h2
-{
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding-left: 45%;
-}
-.list4 ul
-{
-    margin:0% 0% 0% 0%  ;
-}
-.list4 ul li a
-{
-  color: white;
-  list-style: none;
-  font-size: 12px;
   margin-top: 2px;
 }
 footer
 {
     width: 100%;
 }
-.copywrt
+.copyright
 {
     width: 85% ;
     height:20PX ;
@@ -477,10 +477,233 @@ footer
     display: flex;
     justify-content: center;
 }
-.copywrt p
+.copyright p
 {
     color: grey;
     font-size: 14px;
+}
+@media (max-width:600px) {
+    body  
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuprin
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: blueviolet;
+    }
+    .menuprin h1
+    {
+        width: 100%;
+    }
+    .menuprin ul 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .menuprin ul li 
+    {
+        width: 100%;
+    }
+    .button
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .login
+    {
+        width: 50%;
+        background-color: white ;
+        border-radius: 5px;
+        color: black;
+       
+    }
+    .signup
+    {
+        width: 50%;
+        background-color: black ;
+        border-radius: 5px;
+        color: white;
+        margin-top: 1%;
+    }
+    .contenu
+    {
+        width:100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+   .part-parag
+   {
+       width: 100%;
+   }
+   .part-parag h1 
+   {
+       font-size: 12px;
+   }
+   .part-parag p 
+   {
+       font-size: 9px;
+   }
+   .part-parag select 
+   {
+       width: 50%;
+   }
+   .part-parag button
+   {
+       width: 50%;
+       font-size: 8px;
+   }
+   .part-parag img 
+   {
+       width: 20%;
+       height: auto;
+   }
+   .logos
+   {
+       display: flex;
+       flex-direction: column;
+   }
+   .logos img
+   {
+       width: 40%;
+       margin-top: 1%;
+   }
+   .contenu-1
+   {
+       display: flex;
+       flex-direction: column;
+   }
+   .contenu-1 img 
+   {
+       width: 100%;
+       height: 250px;
+   }
+   .paragraph
+   {
+       width: 100%;
+   }
+   .contenu-2
+   {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       margin-top: 500px;
+   }
+   .contenu-2 img 
+   {
+       display: none;
+   }
+   .contenu-3
+   {
+       display: flex;
+       flex-direction: column;
+   }
+   .column
+   {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+   .image-1
+   {
+       width: 100%;
+   }
+   .image-2
+   {
+       width: 100%;
+   }
+   .column-1
+   {
+       width: 100%;
+   }
+   .image-3
+   {
+       width: 100%;
+   }
+   .column-2
+   {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+   }
+   .image-4
+   {
+       width: 100%;
+   }
+   .image-5
+   {
+       width: 100%;
+   }
+   .column-3
+   {
+       width: 100%;
+       height: auto;
+       display: flex;
+       flex-direction: column;
+   }
+   .image-6
+   {
+       width: 100%;
+   }
+   .image-7
+   {
+       width: 100%;}
+   .contenu-4
+       {
+           width: 100%;
+           height: auto;
+           display: flex;
+           flex-direction: column;
+           margin-top: 940px;
+       }
+       .part-4-parag
+       {
+           width: 100%;
+       }
+       .part-4-parag p
+       {
+           font-size: 8px;
+           margin-right: 10%;
+           width: 50%;
+       }
+       .lists
+       {
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+       }
+       .list1
+       {
+           font-size: 8px;
+       }
+       .list2 ul li a
+       {
+          font-size: 8px;
+       }
+       .list3
+       {
+           font-size: 8px;
+       }
+       .list4
+       {
+           font-size: 8px;
+       }
+       .copyright
+       {
+           width: 100%;
+       }
+       .copyright p
+       {
+          font-size: 5px;
+       }
 }
 
 
