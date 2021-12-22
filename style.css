@@ -84,7 +84,7 @@ select
 .contenu
 {
     width: 85% ;
-    height:200px ;
+    height: auto ;
     background-color: black;
     border-radius: 5px;
     margin-top: 20px ;
@@ -489,10 +489,11 @@ footer
         display: flex;
         flex-direction: column;
     }
+    
 
     .menuprin
     {
-        width: 100%;
+        width: 97%;
         display: flex;
         flex-direction: column;
         background-color: blueviolet;
@@ -535,7 +536,7 @@ footer
     }
     .contenu
     {
-        width:100%;
+        width: 96%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -551,6 +552,9 @@ footer
    .part-parag p 
    {
        font-size: 9px;
+   }
+   .part-2 {
+    margin-left: 0%;
    }
    .part-parag select 
    {
@@ -570,11 +574,11 @@ footer
    {
        display: flex;
        flex-direction: column;
+       gap: 32px
    }
    .logos img
    {
        width: 40%;
-       margin-top: 1%;
    }
    .contenu-1
    {
@@ -584,19 +588,22 @@ footer
    .contenu-1 img 
    {
        width: 100%;
-       height: 250px;
+       margin-top: 8%;
    }
    .paragraph
    {
        width: 100%;
    }
-   .contenu-2
-   {
-       width: 100%;
-       display: flex;
-       flex-direction: column;
-       margin-top: 500px;
-   }
+   .paragraph button {
+    margin: 12% 0% 10% 20%;}
+
+   .contenu-2 {
+    margin-top: 823px;
+    width: 92%;
+    margin-left: 17px;
+    margin-right: 0px;
+    }
+  
    .contenu-2 img 
    {
        display: none;
@@ -609,7 +616,6 @@ footer
    .column
    {
        display: flex;
-       flex-direction: column;
        width: 100%;
    }
    .image-1
@@ -624,15 +630,16 @@ footer
    {
        width: 100%;
    }
-   .image-3
-   {
-       width: 100%;
-   }
+   .image-3 {
+    width: 89%;
+    height: 125%;
+    }
    .column-2
    {
        width: 100%;
        display: flex;
        flex-direction: column;
+       margin-top: 21%;
    }
    .image-4
    {
@@ -656,33 +663,40 @@ footer
    .image-7
    {
        width: 100%;}
-   .contenu-4
-       {
-           width: 100%;
-           height: auto;
-           display: flex;
-           flex-direction: column;
-           margin-top: 940px;
-       }
+  
+   .contenu-4 {
+        width: 91%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1633px;
+    }
        .part-4-parag
        {
            width: 100%;
        }
        .part-4-parag p
        {
-           font-size: 8px;
-           margin-right: 10%;
+           padding: 10% 0% 7% 5%;
+           font-size: 14px;
            width: 50%;
        }
        .lists
        {
-           width: 100%;
+           
            display: flex;
-           flex-direction: column;
+
+           
        }
+       .lists {
+        width: 100%;
+        display: flex;
+        margin: 0% 0% 0% 0%;
+    }
        .list1
        {
            font-size: 8px;
+           width: 20%;
        }
        .list2 ul li a
        {
@@ -691,10 +705,13 @@ footer
        .list3
        {
            font-size: 8px;
+           width: 20%;
        }
        .list4
        {
            font-size: 8px;
+           width: 20%;
+
        }
        .copyright
        {
@@ -705,6 +722,178 @@ footer
           font-size: 5px;
        }
 }
+@media (max-width:900px) {
+    body  
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .menuprin
+    {
+        width: 97%;
+        display: flex;
+        flex-direction: column;
+        background-color: blueviolet;
+    }
+    .menuprin h1
+    {
+        width: 100%;
+    }
+    .menuprin ul {
+        margin-left: 0%;
+    }
+
+    .menuprin ul li 
+    {
+        width: 100%;
+    }
+    .button
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .login
+    {
+        width: 27%;
+        background-color: #e99c9c;
+        border-radius: 5px;
+        color: black;
+       
+    }
+    .signup
+    {
+        width: 27%;
+        background-color: black ;
+        border-radius: 5px;
+        color: white;
+        margin-top: 1%;
+    }
+    .contenu img {
+        width: 60%;
+        padding-top: 44px;
+    }
+    .contenu {
+        width: 97%;
+        margin-top: 105px;
+        flex-direction: column;
+    }
+    .paragraph button {
+        margin: 5% 0% 0% 14%;
+    }
+    .part {
+        width: 97%;
+        justify-content: center;
+    }
+    .part-parag {
+        width: 88%;
+        align-items: center;
+        margin-top: 6%;
+    }
+    .part-parag button {
+        height: 33px;
+        width: 48%;
+    }
+    .logos {
+        width: 96%;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex-wrap: wrap;
+    }
+    .logos img {
+        width: 32%;
+        margin-top: 8%;
+        flex-wrap: wrap;
+        margin-left: 13%;
+    }
+    #company-6 {
+        width: 14%;
+        margin-right: 73px;
+    }
+    .part-4-parag p {
+        color: white;
+        padding: 1% 0% 0% 16%;
+        width: 358px;
+    }
+    .contenu-3 {
+        flex-direction: column;
+    }
+    .column {
+        width: 97%;
+        height: 69%;
+        display: flex;
+        flex-direction: row;
+    }
+    .image-1 {
+        width: 45%;
+        height: auto;
+    }
+    .image-2 {
+        width: 45%;
+        margin-top: 0%;
+        margin-left: 12%;
+    }
+    .column-1 {
+        width: 93%;
+        height: 64%;
+        margin-left: 12%;
+    }
+    .image-3 {
+        width: 45%;
+        height: auto;
+        margin-left: 16%;
+        margin-top: 5%;
+    }
+   
+    .column-2 {
+        width: 97%;
+        margin-left: 0%;
+    }
+    .image-4 {
+        width: 45%;
+        height: auto;
+    }
+    .image-5 {
+        width: 45%;
+        height: auto;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    .column-3 {
+        width: 97%;
+        margin-left: 0px;
+    }
+    .image-6 {
+        width: 45%;
+        height: auto;
+    }
+    .image-7 {
+        width: 45%;
+        height: auto;
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    .contenu-4 {
+        width: 88%;
+        height: 260px;
+        margin-top: 71%;
+        margin-left: 3px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .lists {
+        width: 80%;
+        margin: 5% 0% 0% 4%;
+    }
+
+}
+
 
 
 
